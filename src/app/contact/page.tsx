@@ -207,7 +207,7 @@ const Contact = () => {
             <button
               type="submit"
               disabled={isSubmitting}
-              className={`w-full bg-primary text-white py-3 px-6 rounded-lg font-semibold hover:bg-primary/90 transition-colors ${
+              className={`w-full bg-primary text-white px-6 py-3 rounded-lg hover:bg-primary/90 hover:shadow-lg transition-all ${
                 isSubmitting ? 'opacity-75 cursor-not-allowed' : ''
               }`}
             >

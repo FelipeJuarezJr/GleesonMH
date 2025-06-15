@@ -38,7 +38,7 @@ export default function Navigation() {
             ))}
             <Link
               href="/contact"
-              className="bg-primary text-white px-4 py-2 rounded-lg hover:bg-primary/90 transition-colors"
+              className="bg-primary text-white px-4 py-2 rounded-lg hover:bg-primary/90 hover:shadow-lg transition-all"
             >
               Get a Quote
             </Link>
@@ -74,7 +74,7 @@ export default function Navigation() {
               ))}
               <Link
                 href="/contact"
-                className="bg-primary text-white px-4 py-2 rounded-lg hover:bg-primary/90 transition-colors text-center"
+                className="bg-primary text-white px-4 py-2 rounded-lg hover:bg-primary/90 hover:shadow-lg transition-all text-center"
                 onClick={() => setMobileMenuOpen(false)}
               >
                 Get a Quote

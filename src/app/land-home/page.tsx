@@ -119,7 +119,7 @@ const LandHome = () => {
           </p>
           <a
             href="/contact"
-            className="inline-block bg-primary text-white px-8 py-3 rounded-lg text-lg font-semibold hover:bg-primary/90 transition-colors"
+            className="inline-block bg-primary text-white px-8 py-3 rounded-lg text-lg font-semibold hover:bg-primary/90 hover:shadow-lg transition-all"
           >
             Get Started
           </a>
