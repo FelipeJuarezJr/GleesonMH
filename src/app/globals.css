@@ -6,6 +6,23 @@
   :root {
     --background: 0 0% 100%;
     --foreground: 222.2 84% 4.9%;
+    --primary: #800000;
+  }
+
+  /* Force primary colors at the base level */
+  .text-primary,
+  a.text-primary,
+  button.text-primary,
+  .hover\:text-primary:hover,
+  a:hover.text-primary,
+  [class*="text-primary"] {
+    color: var(--primary) !important;
+  }
+  
+  .bg-primary,
+  button.bg-primary,
+  [class*="bg-primary"] {
+    background-color: var(--primary) !important;
   }
 }
 
@@ -16,16 +33,17 @@
 }
 
 @layer components {
-  .text-primary {
-    color: #800000;
+  /* Keep component-level styles as fallback */
+  .text-primary,
+  a.text-primary,
+  button.text-primary,
+  .hover\:text-primary:hover,
+  a:hover.text-primary {
+    color: var(--primary) !important;
   }
-  .bg-primary {
-    background-color: #800000;
-  }
-  .hover\:bg-primary-hover:hover {
-    background-color: #600000;
-  }
-  .hover\:text-primary:hover {
-    color: #800000;
+  
+  .bg-primary,
+  button.bg-primary {
+    background-color: var(--primary) !important;
   }
 } 

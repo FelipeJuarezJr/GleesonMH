@@ -31,14 +31,14 @@ export default function Navigation() {
               <Link
                 key={item.name}
                 href={item.href}
-                className="text-gray-600 hover:text-primary transition-colors"
+                className="text-gray-600 hover:text-gray-900 transition-colors"
               >
                 {item.name}
               </Link>
             ))}
             <Link
               href="/contact"
-              className="bg-primary text-white px-4 py-2 rounded-lg hover:bg-primary-hover transition-colors"
+              className="bg-primary text-white px-4 py-2 rounded-lg hover:bg-primary/90 transition-colors"
             >
               Get a Quote
             </Link>
@@ -66,7 +66,7 @@ export default function Navigation() {
                 <Link
                   key={item.name}
                   href={item.href}
-                  className="text-gray-600 hover:text-primary transition-colors"
+                  className="text-gray-600 hover:text-gray-900 transition-colors"
                   onClick={() => setMobileMenuOpen(false)}
                 >
                   {item.name}
@@ -74,7 +74,7 @@ export default function Navigation() {
               ))}
               <Link
                 href="/contact"
-                className="bg-primary text-white px-4 py-2 rounded-lg hover:bg-primary-hover transition-colors text-center"
+                className="bg-primary text-white px-4 py-2 rounded-lg hover:bg-primary/90 transition-colors text-center"
                 onClick={() => setMobileMenuOpen(false)}
               >
                 Get a Quote

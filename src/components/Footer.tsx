@@ -103,7 +103,7 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="border-t border-gray-700 mt-12 pt-8 text-center text-gray-300">
+        <div className="border-t border-white mt-12 pt-8 text-center text-gray-300">
           <p>&copy; {new Date().getFullYear()} Gleeson Mobile Home Service. All rights reserved.</p>
         </div>
       </div>

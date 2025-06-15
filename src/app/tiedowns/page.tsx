@@ -91,24 +91,24 @@ const Tiedowns = () => {
           </motion.div>
         </div>
 
-        <div className="bg-primary/5 rounded-xl p-8 text-center">
-          <h2 className="text-2xl font-bold mb-4">Why Proper Anchoring Matters</h2>
+        <div className="bg-primary rounded-xl p-8 text-center">
+          <h2 className="text-2xl font-bold mb-4 text-white">Why Proper Anchoring Matters</h2>
           <ul className="text-left max-w-2xl mx-auto space-y-4">
             <li className="flex items-start">
-              <span className="text-primary mr-2">✓</span>
-              <span>Protection against strong winds and storms</span>
+              <span className="text-white mr-2">✓</span>
+              <span className="text-white">Protection against strong winds and storms</span>
             </li>
             <li className="flex items-start">
-              <span className="text-primary mr-2">✓</span>
-              <span>Compliance with local building codes</span>
+              <span className="text-white mr-2">✓</span>
+              <span className="text-white">Compliance with local building codes</span>
             </li>
             <li className="flex items-start">
-              <span className="text-primary mr-2">✓</span>
-              <span>Enhanced structural stability</span>
+              <span className="text-white mr-2">✓</span>
+              <span className="text-white">Enhanced structural stability</span>
             </li>
             <li className="flex items-start">
-              <span className="text-primary mr-2">✓</span>
-              <span>Professional installation by experienced technicians</span>
+              <span className="text-white mr-2">✓</span>
+              <span className="text-white">Professional installation by experienced technicians</span>
             </li>
           </ul>
         </div>

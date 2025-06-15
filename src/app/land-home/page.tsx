@@ -90,24 +90,24 @@ const LandHome = () => {
           </div>
         </div>
 
-        <div className="bg-primary/5 rounded-xl p-8 text-center">
-          <h2 className="text-2xl font-bold mb-4">Why Choose Our Complete Package?</h2>
+        <div className="bg-primary rounded-xl p-8 text-center">
+          <h2 className="text-2xl font-bold mb-4 text-white">Why Choose Our Complete Package?</h2>
           <ul className="text-left max-w-2xl mx-auto space-y-4">
             <li className="flex items-start">
-              <span className="text-primary mr-2">✓</span>
-              <span>One-stop solution for your manufactured home needs</span>
+              <span className="text-white mr-2">✓</span>
+              <span className="text-white">One-stop solution for your manufactured home needs</span>
             </li>
             <li className="flex items-start">
-              <span className="text-primary mr-2">✓</span>
-              <span>Experienced team handling every aspect of the process</span>
+              <span className="text-white mr-2">✓</span>
+              <span className="text-white">Experienced team handling every aspect of the process</span>
             </li>
             <li className="flex items-start">
-              <span className="text-primary mr-2">✓</span>
-              <span>Quality materials and professional installation</span>
+              <span className="text-white mr-2">✓</span>
+              <span className="text-white">Quality materials and professional installation</span>
             </li>
             <li className="flex items-start">
-              <span className="text-primary mr-2">✓</span>
-              <span>Comprehensive service from start to finish</span>
+              <span className="text-white mr-2">✓</span>
+              <span className="text-white">Comprehensive service from start to finish</span>
             </li>
           </ul>
         </div>
